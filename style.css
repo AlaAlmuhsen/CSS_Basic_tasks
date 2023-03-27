@@ -1,0 +1,132 @@
+.first .one {
+    color: #4e90af;
+}
+.first .two {
+    color: red;
+}
+.first .three {
+    color: blue;
+    font-size: 30px;
+}
+.first .four {
+    color: pink;
+    font-size: 15px;
+}
+.first .five {
+    color: purple;
+    font-size: 2em;
+}
+.first .six {
+    color: yellow;
+    font-size: 3em;
+}
+.second .one {
+    color: red;
+}
+.second .two {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second .three {
+    color: blue;
+    text-align: center;
+    background-color: #5ccfaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: 100;
+}
+.second .four {
+    color: pink;
+    text-transform: capitalize;
+    text-shadow: 1px 1px black;
+}
+.second .five {
+    color: orange;
+    text-align: right;
+    text-decoration: line-through;
+}
+.second .six {
+    color: yellow;
+    text-decoration: underline red;
+}
+.third .external {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
+.fourth .one {
+    color: cyan;
+    font-size: larger;
+    text-decoration: underline;
+}
+.fourth #two {
+    background-color: cyan;
+    color: greenyellow;
+}
+.fourth .three {
+    background-color: #d4f0f1;
+}
+.fourth .three .a{
+    color: red;
+}
+.fourth .three .b{
+    color: blue;
+}
+.fourth .four{
+    background-color: #f5dbfd;
+    text-align: center;
+}
+.fourth .four p:nth-child(odd){
+    color: blue;
+}
+.fourth .four p:nth-child(even){
+    color: red;
+}
+.fifth .odd{
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifth p:nth-child(3){
+    font-size: 24px;
+}
+.fifth #one{
+    color: blue;
+    font-size: 36px;
+}
+.fifth #two{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+.card {
+    background-color: #eeeeee;
+    display: inline-block;
+}
+.card div{
+    margin: 5px;
+    background-color: #e3f4ff;
+    padding: 10px;
+}
+.card .footer{
+    text-align: center;
+}
+.player-card{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(#ff0000 , #006600);
+    width: 800px;
+    padding: 50px;
+}
+.player-card .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-card .head h1{
+    color: white;
+}
+.player-card .head p{
+    color: white;
+    font-size: 20px;
+}
